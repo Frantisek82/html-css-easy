@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2 - HTML5</title>
+  </head>
+  <body>
+    <h2>Make your order</h2>
+    <h3>Please, fill this form:</h3>
+    <form action="login.php" method="POST">
+      <label for="name">
+        <input type="text" name="userName" placeholder="Your name" /></label
+      ><br /><br />
+      <label for="email">
+        <input type="text" name="userEmail" placeholder="Your email" /></label
+      ><br /><br />
+      <textarea name="userAddress" cols="30" rows="10">
+Write the address for your order</textarea
+      ><br /><br /><br />
+      <h2>Include salad starter?</h2>
+      <input type="radio" id="yes" name="extraSides" value="Yes, include it!" />
+      <label for="yes">Yes, include it!</label><br />
+      <input type="radio" id="no" name="extraSides" value="No, thanks." />
+      <label for="no">No, thanks.</label>
+      <p>Choose your main course</p>
+      <select name="selectMainCourse" id="mainCourse">
+        <option value=""></option>
+        <option value="">Grilled Chicken with Fresh Cherry Salsa.</option>
+        <option value="">Bombay GrilledChutney Sandwich.</option>
+        <option value="">PersianChickenJoojehKebabs.</option>
+        <option value="">SpicyPorkVindaloo.</option>
+        <option value="">Bombay SloppyJoes(KheemaPav)</option></select
+      ><br /><br />
+      <input type="checkbox" name="payment" id="creditCard" />
+      <label for="creditCard">Pay with credit card</label><br /><br />
+      <input type="submit" value="Make order" />
+    </form>
+  </body>
+</html>
