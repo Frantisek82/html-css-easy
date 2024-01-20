@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Rubik-regular;
+    src: url(../Font/Rubik-Regular.ttf) format("truetype");
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-color: #264653;
+  --bright-color: #f4a261;
+  --medium-size: 1.3em;
+}
+body {
+  /*width: 100vw;*/
+  height: 100vh;
+  background: var(--dark-color);
+}
+div {
+  border: 1px solid var(--dark-color);
+  width: calc(100vw / 3);
+  height: 100%;
+  background-color: var(--bright-color);
+  color: var(--dark-color);
+  font-size: var(--medium-size);
+  /*height: 844px;*/
+  /*margin: 15% auto;*/
+}
+h1 {
+  font-family: "Press Start 2P", system-ui;
+}
+.panel-body {
+  font-family: "Rubik-regular";
+  font-weight: 400;
+}
