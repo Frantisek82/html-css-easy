@@ -1,0 +1,36 @@
+:root {
+  background-color: #ff6a5f;
+}
+table {
+  border-collapse: collapse;
+}
+.calendar {
+  background-color: white;
+  width: 400px;
+  height: fit-content;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+th {
+  border: none;
+  color: white;
+  background-color: #404040;
+  width: 500px;
+  height: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+}
+td {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-align: center;
+}
+.numero_8 {
+  border-radius: 100px;
+  color: white;
+  background-color: #ff7555;
+}

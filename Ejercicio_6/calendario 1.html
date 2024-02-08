@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario 1</title>
+    <link rel="stylesheet" href="css/calendarioStyle1.css" />
+  </head>
+  <body>
+    <div class="calendar">
+      <div class="calendar_months">
+        <form action="login.php" method="post">
+          <select name="months" id="months">
+            <option value="february">Feb</option>
+            <option value="march">Mar</option>
+            <option value="april">Apr</option>
+          </select>
+        </form>
+      </div>
+      <div class="calendar_years">
+        <form action="login.php" method="post">
+          <select name="years" id="years">
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+          </select>
+        </form>
+      </div>
+      <table class="months_days">
+        <tr class="week_days">
+          <td>M</td>
+          <td>T</td>
+          <td>W</td>
+          <td>T</td>
+          <td>F</td>
+          <td>S</td>
+          <td>S</td>
+        </tr>
+        <tr class="firstWeek">
+          <td class="font_color1">27</td>
+          <td class="font_color1">28</td>
+          <td class="font_color1">29</td>
+          <td class="font_color1">30</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr class="secondWeek">
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr class="thirdWeek">
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td class="highlighted_day_16">16</td>
+          <td class="highlighted_day_17">17</td>
+        </tr>
+        <tr class="forthWeek">
+          <td class="highlighted_days">18</td>
+          <td class="highlighted_days">19</td>
+          <td class="highlighted_days">20</td>
+          <td class="highlighted_day">21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr class="fifthWeek">
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+        </tr>
+      </table>
+      <div class="back">
+        <button class="button_back" type="button">Back</button>
+      </div>
+      <div class="apply">
+        <button class="button_apply" type="button">Apply</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+:root {
+  background-color: #e8e8e8f8;
+}
+.calendar {
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, white, #f9f9fa);
+  padding: 10px 0 10px 0;
+  width: 270px;
+  height: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+.calendar_months {
+  border-radius: 20px;
+  background-color: #e7e7e7f9;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  width: 100px;
+  float: left;
+}
+#months {
+  border: none;
+  background-color: #e7e7e7f9;
+  width: 100px;
+  height: fit-content;
+}
+.calendar_years {
+  border-radius: 20px;
+  background-color: #e7e7e7f9;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 100px;
+  float: right;
+}
+#years {
+  width: 100px;
+  height: fit-content;
+  border: none;
+  background-color: #e7e7e7f9;
+}
+.months_days {
+  border-collapse: collapse;
+  background-color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 270px;
+  height: 200px;
+}
+.week_days {
+  color: #c5c8cd;
+  background-color: white;
+}
+.firstWeek {
+  background-color: #f9f9fa;
+  border-radius: 20px;
+}
+.font_color1 {
+  color: #c5c8cd;
+}
+.secondWeek {
+  background-color: #f9f9fa;
+}
+.thirdWeek {
+  background-color: #f9f9fa;
+}
+.highlighted_day_16 {
+  border-radius: 10px 0 0 10px;
+  color: #ff374b;
+  background-color: #ffeaec;
+}
+.highlighted_day_17 {
+  color: #ff374b;
+  background-color: #ffeaec;
+}
+.highlighted_days {
+  color: #ff374b;
+  background-color: #ffeaec;
+}
+.highlighted_day {
+  border-radius: 10px;
+  color: white;
+  background-color: #ff374b;
+}
+.forthWeek {
+  background-color: #f9f9fa;
+}
+.fifthWeek {
+  background-color: #f9f9fa;
+}
+.back {
+  border-radius: 20px;
+  background-color: #e7e7e7f9;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  width: 100px;
+  float: left;
+}
+.button_back {
+  border: none;
+  background-color: #e7e7e7f9;
+  width: 100px;
+  height: fit-content;
+}
+.apply {
+  border-radius: 20px;
+  background-color: #1752ff;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 100px;
+  float: right;
+}
+.button_apply {
+  border: none;
+  color: white;
+  background-color: #1752ff;
+  width: 100px;
+  height: fit-content;
+}
