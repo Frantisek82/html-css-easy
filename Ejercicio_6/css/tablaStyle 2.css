@@ -1,0 +1,23 @@
+.table {
+  border-collapse: collapse;
+  width: 800px;
+  height: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.header {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-style: bolt;
+}
+.gray_row {
+  background-color: rgb(255, 246, 246);
+  color: black;
+  font-size: 9px;
+}
+.white_row {
+  background-color: white;
+  color: black;
+  font-size: 9px;
+}
