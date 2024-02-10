@@ -15,21 +15,21 @@ th {
   border: none;
   color: white;
   background-color: #404040;
-  width: 500px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   font-family: "Courier New", Courier, monospace;
   font-size: 10px;
   text-align: center;
 }
 td {
   background-color: white;
-  width: 500px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   font-family: "Courier New", Courier, monospace;
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
-.numero_8 {
+.numero_14 {
   border-radius: 100%;
   color: white;
   background-color: #ff7555;
