@@ -1,0 +1,47 @@
+:root {
+  background-color: black;
+}
+.main_container {
+  background-color: #15172b;
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+  padding: 10px;
+}
+.first_title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+}
+.second_title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 65px;
+}
+.input_containers {
+  margin-top: 70px;
+}
+.input_group {
+  color: #4f5872;
+  background-color: #303245;
+  font-family: sans-serif;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 195px;
+}
+.button {
+  color: white;
+  background-color: #0088dd;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 195px;
+}
