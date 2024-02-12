@@ -1,0 +1,65 @@
+body {
+  background-color: #d6eafc;
+}
+.container {
+  background-color: white;
+  border-radius: 8px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.title_login {
+  color: #5b5e69;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-left: 0px;
+}
+.Pen_By {
+  color: #5b5e69;
+  font-family: sans-serif;
+  font-size: 10px;
+  position: absolute;
+  top: 40px;
+  margin-left: 0px;
+}
+.input_group {
+  color: #a7aeb7;
+  border: none;
+  border-bottom: solid;
+  border-color: #ecebf0;
+  width: 195px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#icon {
+  padding-right: 5px;
+  background: url("https://fontawesome.com/icons/eye?f=classic&s=regular");
+  background-size: 20px;
+}
+.button {
+  background-color: #fe693a;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.question {
+  color: #5b5e69;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.create {
+  color: black;
+  font-family: sans-serif;
+  font-size: 10px;
+}
