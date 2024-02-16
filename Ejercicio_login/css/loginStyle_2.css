@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 0.785rem;
+}
+body {
+  background-color: #d5eafc;
+}
+div {
+  width: 50%;
+  margin: 3em auto;
+  padding: 2em;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 0.8rem0;
+  background-color: #fff;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+input {
+  border-bottom: 1px solid #e3c2e5;
+  padding: 1em 0 0;
+  width: 100%;
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+}
+button {
+  width: 100%;
+  background-color: #ff6000;
+  color: #fff;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 0.3rem;
+}
+span {
+  font-size: 1.2rem;
+}
+a {
+  color: #000;
+  font-weight: 300;
+}
+label {
+  position: relative;
+  width: 100%;
+}
+i {
+  /* the position doesn't seems to be correct */
+  position: absolute;
+  top: 1px;
+  left: 210px;
+  color: #c0c1c4;
+}
